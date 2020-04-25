@@ -1,0 +1,17 @@
+#!/bin/bash
+#array
+
+declare -a angka
+data="dataArr"
+
+i=0;
+while [ $i -le 10 ];
+do
+let isi=$i*9;
+angka[$i]=$isi;
+let i=$i+1;
+done
+echo ${angka[0]};
+echo ${angka[2]};
+echo ${angka[*]};
+unset angka

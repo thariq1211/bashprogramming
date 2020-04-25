@@ -1,0 +1,169 @@
+#!/bin/bash
+#bakso
+
+lagi='y'
+while [ $lagi == 'y' ] || [ $lagi == 'Y' ];
+do
+ echo -e "Pilih Menu:\n1) Bakso\n2) Gado-gado\n3)Rujak\n4) Exit"
+ read -p "Pilihanmu (1-4): " opsi;
+ case $opsi in
+	1) read -p "Banyak mangkuk: " jum;
+	   let bayar=jum*1500;
+	   break
+	   ;;
+	2) read -p "Banyak porsi: " jum;
+	   let bayar=jum*2000;
+	   break
+	   ;;
+	3) read -p "Banyak bungkus: " jum;
+	   let bayar=jum*1250;
+	   break
+	   ;;
+	4) exit 0
+	   break
+	   ;;
+	5) printf "Menu tidak tersedia\n"
+ 	   break
+	   ;;
+ esac
+
+while [ $opsi -eq 1 ] || [ $opsi -eq 2 ] || [ $opsi -eq 3 ]
+do
+echo "Harga bayar=  Rp.$bayar"
+echo -e "ty\n"
+read -p "Hitung Lagi?? (Y/T) " lagi;
+
+while [ $lagi != 'y' ] && [ $lagi != 'Y' ] && [ $lagi != 't' ] && [ $lagi != 'T' ];
+do
+echo "Isi dengan benar!!!!"
+read -p "Hitung Lagi?? (Y/T) " lagi;
+
+
+#!/bin/bash
+
+menu(){
+	clear
+	tput cup 2 8;
+	echo "DB CRUD"
+	tput cup 3 11;
+	echo "1. Entry data"
+	tput cup 4 11;
+	echo "2. Cari data"
+	tput cup 5 11;
+	echo "3. Cetak data"
+	tput cup 6 11;
+	echo "4. Exit"
+	tput cup 7 9;
+	read -p "Pilihan (1-4): " pil;
+	while [ -z $pil ] || [ $pil -lt 1 ] || [ $pil -gt 4 ]; 
+	do
+		tput cup 7 9;
+		read -p "Pilihan (1-4): " pil;
+	done
+		# tput cup 7 35;
+		# echo -e "Pilihan anda adalah $pil"
+
+}
+
+entry(){
+	tput cup 9 27
+	echo "Entry data"
+	tput cup 11 27
+	read -p "Nama: " nama;
+
+	while [ -z $nama ] || grep $nama $data -q -i; 
+	do
+		tput cup 13 27
+		echo "Kosong atau $nama sudah ada";
+		clear
+		tput cup 11 27
+		read -p "Nama: " nama;	
+	done
+
+	tput cup 12 27
+	read -p "Kota: " kota;
+	tput cup 13 27
+	read -p "Alamat: " alamat;
+	tput cup 14 27
+	read -p "Email: " email;
+	tput cup 16 27
+	echo "Rekam data ke file"
+	if !(echo $nama:$kota:$alamat:$email>>$data); then
+		echo "Gagal rekam file"
+		exit 1;
+	fi
+	sleep 3;
+}
+
+cari(){
+	tput cup 9 27
+	echo "Cari data"
+	tput cup 11 27
+	read -p "Nama: " nama;
+	while [ -z $nama ]; do
+		tput cup 13 27
+		echo "Nama kosong!!"
+		sleep 3
+		tput cup 11 27
+		read -p "Nama: " nama;
+	done
+
+	if found=`grep $nama $data -n -i`; then
+		tput cup 12 27
+		echo -n "Kota: ";
+			echo "$found" | cut -d: -f3;
+			tput cup 13 27
+			echo -n "Alamat: ";
+			echo "$found" | cut -d: -f4;
+		tput cup 14 27
+			echo -n "Mail: ";
+			echo "$found" | cut -d: -f5;
+			tput cup 16 27
+			echo -n "Record ke- $found" | cut -d: -f1
+		else
+		tput cup 13 27
+		echo "Data tidak ketemu";	
+	fi
+}
+
+cetak(){
+	tput cup 12 27
+	echo "list data"
+	tput cup 13 27
+	echo -n "1. asc, 2. desc:"
+	read mode;
+	clear;
+	if [ -z $mode ] || [ $mode -eq 1 ]; then
+		cat $data | sort | more -d
+	elif [ $mode -eq 2 ]; then
+		cat $data | sort -r | more -d
+	else
+		cat $data | sort | more -d
+	fi
+}
+
+#main
+data="myData"
+
+if !(test -e $data); then
+	if !(touch $data); then
+		echo "gagal buat db"
+		exit 1
+	fi
+fi
+lagi='y';
+while [ $lagi == 'y' ] || [ $lagi == 'Y' ]; do
+	menu;
+	case $pil in
+		1) entry;;
+		2) cari;;
+		3) cetak;;
+		4) clear;
+		   exit 0;;
+		*) echo "Pilihan tdk ada"
+			;;
+	esac
+	tput cup 18 27
+	echo -n "Ke Menu? (y/t) ";
+	read lagi;	   
+done

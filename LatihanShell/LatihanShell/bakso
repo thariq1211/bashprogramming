@@ -1,0 +1,41 @@
+#!/bin/bash
+#bakso
+
+lagi='y'
+while [ $lagi == 'y' ] || [ $lagi == 'Y' ];
+do
+ echo -e "Pilih Menu:\n1) Bakso\n2) Gado-gado\n3)Rujak\n4) Exit"
+ read -p "Pilihanmu (1-4): " opsi;
+ case $opsi in
+	1) read -p "Banyak mangkuk: " jum;
+	   let bayar=jum*1500;
+	   break
+	   ;;
+	2) read -p "Banyak porsi: " jum;
+	   let bayar=jum*2000;
+	   break
+	   ;;
+	3) read -p "Banyak bungkus: " jum;
+	   let bayar=jum*1250;
+	   break
+	   ;;
+	4) exit 0
+	   break
+	   ;;
+	5) printf "Menu tidak tersedia\n"
+ 	   break
+	   ;;
+ esac
+
+while [ $opsi -eq 1 ] || [ $opsi -eq 2 ] || [ $opsi -eq 3 ]
+do
+echo "Harga bayar=  Rp.$bayar"
+echo -e "ty\n"
+read -p "Hitung Lagi?? (Y/T) " lagi;
+
+while [ $lagi != 'y' ] && [ $lagi != 'Y' ] && [ $lagi != 't' ] && [ $lagi != 'T' ];
+do
+echo "Isi dengan benar!!!!"
+read -p "Hitung Lagi?? (Y/T) " lagi;
+
+

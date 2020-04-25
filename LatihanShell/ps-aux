@@ -1,0 +1,298 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.2 252924 13472 ?        Ss   08:08   0:14 /usr/lib/systemd/systemd --system --deserialize 89
+root         2  0.0  0.0      0     0 ?        S    08:08   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        I<   08:08   0:00 [rcu_gp]
+root         4  0.0  0.0      0     0 ?        I<   08:08   0:00 [rcu_par_gp]
+root         6  0.0  0.0      0     0 ?        I<   08:08   0:00 [kworker/0:0H-kblockd]
+root         8  0.0  0.0      0     0 ?        I<   08:08   0:00 [mm_percpu_wq]
+root         9  0.0  0.0      0     0 ?        S    08:08   0:00 [ksoftirqd/0]
+root        10  0.0  0.0      0     0 ?        I    08:08   0:10 [rcu_sched]
+root        11  0.0  0.0      0     0 ?        S    08:08   0:00 [migration/0]
+root        12  0.0  0.0      0     0 ?        S    08:08   0:00 [watchdog/0]
+root        13  0.0  0.0      0     0 ?        S    08:08   0:00 [cpuhp/0]
+root        14  0.0  0.0      0     0 ?        S    08:08   0:00 [cpuhp/1]
+root        15  0.0  0.0      0     0 ?        S    08:08   0:00 [watchdog/1]
+root        16  0.0  0.0      0     0 ?        S    08:08   0:00 [migration/1]
+root        17  0.0  0.0      0     0 ?        S    08:08   0:00 [ksoftirqd/1]
+root        19  0.0  0.0      0     0 ?        I<   08:08   0:00 [kworker/1:0H-kblockd]
+root        20  0.0  0.0      0     0 ?        S    08:08   0:00 [cpuhp/2]
+root        21  0.0  0.0      0     0 ?        S    08:08   0:00 [watchdog/2]
+root        22  0.0  0.0      0     0 ?        S    08:08   0:00 [migration/2]
+root        23  0.0  0.0      0     0 ?        S    08:08   0:00 [ksoftirqd/2]
+root        25  0.0  0.0      0     0 ?        I<   08:08   0:00 [kworker/2:0H-kblockd]
+root        26  0.0  0.0      0     0 ?        S    08:08   0:00 [cpuhp/3]
+root        27  0.0  0.0      0     0 ?        S    08:08   0:00 [watchdog/3]
+root        28  0.0  0.0      0     0 ?        S    08:08   0:00 [migration/3]
+root        29  0.0  0.0      0     0 ?        S    08:08   0:00 [ksoftirqd/3]
+root        31  0.0  0.0      0     0 ?        I<   08:08   0:00 [kworker/3:0H-kblockd]
+root        33  0.0  0.0      0     0 ?        S    08:08   0:00 [kdevtmpfs]
+root        34  0.0  0.0      0     0 ?        I<   08:08   0:00 [netns]
+root        35  0.0  0.0      0     0 ?        S    08:08   0:00 [kauditd]
+root        38  0.0  0.0      0     0 ?        S    08:08   0:00 [khungtaskd]
+root        39  0.0  0.0      0     0 ?        S    08:08   0:00 [oom_reaper]
+root        40  0.0  0.0      0     0 ?        I<   08:08   0:00 [writeback]
+root        41  0.0  0.0      0     0 ?        S    08:08   0:00 [kcompactd0]
+root        42  0.0  0.0      0     0 ?        SN   08:08   0:00 [ksmd]
+root        43  0.0  0.0      0     0 ?        SN   08:08   0:03 [khugepaged]
+root        44  0.0  0.0      0     0 ?        I<   08:08   0:00 [crypto]
+root        45  0.0  0.0      0     0 ?        I<   08:08   0:00 [kintegrityd]
+root        46  0.0  0.0      0     0 ?        I<   08:08   0:00 [kblockd]
+root        49  0.0  0.0      0     0 ?        I<   08:08   0:00 [md]
+root        50  0.0  0.0      0     0 ?        I<   08:08   0:00 [edac-poller]
+root        53  0.0  0.0      0     0 ?        S    08:08   0:00 [watchdogd]
+root        64  0.0  0.0      0     0 ?        S    08:08   0:05 [kswapd0]
+root       114  0.0  0.0      0     0 ?        I<   08:08   0:00 [kthrotld]
+root       115  0.0  0.0      0     0 ?        I<   08:08   0:00 [acpi_thermal_pm]
+root       116  0.0  0.0      0     0 ?        I<   08:08   0:00 [kmpath_rdacd]
+root       117  0.0  0.0      0     0 ?        I<   08:08   0:00 [kaluad]
+root       119  0.0  0.0      0     0 ?        I<   08:08   0:00 [ipv6_addrconf]
+root       359  0.0  0.0      0     0 ?        I<   08:08   0:00 [ata_sff]
+root       364  0.0  0.0      0     0 ?        S    08:08   0:00 [scsi_eh_0]
+root       365  0.0  0.0      0     0 ?        I<   08:08   0:00 [scsi_tmf_0]
+root       366  0.0  0.0      0     0 ?        S    08:08   0:00 [scsi_eh_1]
+root       368  0.0  0.0      0     0 ?        I<   08:08   0:00 [scsi_tmf_1]
+root       369  0.0  0.0      0     0 ?        S    08:08   0:00 [scsi_eh_2]
+root       370  0.0  0.0      0     0 ?        I<   08:08   0:00 [scsi_tmf_2]
+root       371  0.0  0.0      0     0 ?        S    08:08   0:00 [scsi_eh_3]
+root       372  0.0  0.0      0     0 ?        I<   08:08   0:00 [scsi_tmf_3]
+root       376  0.0  0.0      0     0 ?        I<   08:08   0:00 [kworker/u9:0]
+root       377  0.0  0.0      0     0 ?        S    08:08   0:06 [i915/signal:0]
+root       378  0.0  0.0      0     0 ?        S    08:08   0:00 [i915/signal:1]
+root       379  0.0  0.0      0     0 ?        S    08:08   0:00 [i915/signal:2]
+root       380  0.0  0.0      0     0 ?        S    08:08   0:00 [i915/signal:6]
+root       384  0.0  0.0      0     0 ?        I<   08:08   0:00 [kworker/3:1H-kblockd]
+root       393  0.0  0.0      0     0 ?        I<   08:08   0:00 [kworker/2:1H-kblockd]
+root       395  0.0  0.0      0     0 ?        I<   08:08   0:01 [kworker/0:1H-kblockd]
+root       410  0.0  0.0      0     0 ?        I<   08:08   0:00 [xfsalloc]
+root       412  0.0  0.0      0     0 ?        I<   08:08   0:00 [xfs_mru_cache]
+root       415  0.0  0.0      0     0 ?        I<   08:08   0:00 [xfs-buf/sda6]
+root       416  0.0  0.0      0     0 ?        I<   08:08   0:00 [xfs-data/sda6]
+root       417  0.0  0.0      0     0 ?        I<   08:08   0:00 [xfs-conv/sda6]
+root       418  0.0  0.0      0     0 ?        I<   08:08   0:00 [xfs-cil/sda6]
+root       419  0.0  0.0      0     0 ?        I<   08:08   0:00 [xfs-reclaim/sda]
+root       420  0.0  0.0      0     0 ?        I<   08:08   0:00 [xfs-log/sda6]
+root       423  0.0  0.0      0     0 ?        I<   08:08   0:00 [xfs-eofblocks/s]
+root       424  0.0  0.0      0     0 ?        S    08:08   0:02 [xfsaild/sda6]
+root       498  0.0  0.0      0     0 ?        I<   08:08   0:00 [kworker/1:1H-events_highpri]
+root       522  0.0  0.6 126632 34688 ?        Ss   08:08   0:04 /usr/lib/systemd/systemd-journald
+root       576  0.0  0.0      0     0 ?        S    08:08   0:00 [irq/45-mei_me]
+root       613  0.0  0.0      0     0 ?        I<   08:08   0:00 [cfg80211]
+root       616  0.0  0.0      0     0 ?        I<   08:08   0:00 [led_workqueue]
+root       675  0.0  0.0  14944  2460 ?        Ss   08:08   0:00 /sbin/mount.ntfs-3g /dev/sda4 /mnt/data -o rw
+rpc        698  0.0  0.0  66424  5020 ?        Ss   08:08   0:00 /usr/bin/rpcbind -w -f
+root       700  0.0  0.0      0     0 ?        I<   08:08   0:00 [rpciod]
+root       701  0.0  0.0      0     0 ?        I<   08:08   0:00 [xprtiod]
+root       705  0.0  0.0 162876  4324 ?        S<sl 08:08   0:00 /sbin/auditd
+root       707  0.0  0.0  47832  1948 ?        S<   08:08   0:00 /usr/sbin/sedispatch
+dbus       729  0.0  0.1  90732  6684 ?        Ssl  08:08   0:14 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root       730  0.0  0.0 100384  2868 ?        Ssl  08:08   0:00 /usr/sbin/irqbalance --foreground
+libstor+   731  0.0  0.0  16756  1740 ?        Ss   08:08   0:00 /usr/bin/lsmd -d
+polkitd    732  0.0  0.4 2066448 27328 ?       Ssl  08:08   0:03 /usr/lib/polkit-1/polkitd --no-debug
+avahi      733  0.0  0.0  81576  4352 ?        Ss   08:08   0:00 avahi-daemon: running [linux.local]
+root       734  0.0  0.1  83004  6632 ?        Ss   08:08   0:00 /usr/lib/systemd/systemd-machined
+root       735  0.0  0.0  17384  1876 ?        Ss   08:08   0:00 /usr/sbin/mcelog --ignorenodev --daemon --foreground
+root       736  0.0  0.0  26436  4504 ?        Ss   08:08   0:00 /usr/sbin/smartd -n -q never
+root       739  0.0  0.0  17460   980 ?        SNs  08:08   0:00 /usr/sbin/alsactl -s -n 19 -c -E ALSA_CONFIG_PATH=/etc/alsa/alsactl.conf --initfile=/lib/alsa/init/00main rdaemon
+root       744  0.0  0.1 436480  7560 ?        Ssl  08:08   0:00 /usr/sbin/ModemManager
+root       745  0.0  0.1 533732 11152 ?        Ssl  08:08   0:03 /usr/libexec/udisks2/udisksd
+root       747  0.0  0.1 381316  6216 ?        Ssl  08:08   0:17 /sbin/rngd -f
+rtkit      748  0.0  0.0 193076  3552 ?        SNsl 08:08   0:00 /usr/libexec/rtkit-daemon
+chrony     779  0.0  0.0 127480  3188 ?        S    08:09   0:01 /usr/sbin/chronyd
+avahi      797  0.0  0.0  81452   412 ?        S    08:09   0:00 avahi-daemon: chroot helper
+root       810  0.0  0.1  89136  8840 ?        Ss   08:09   0:01 /usr/lib/systemd/systemd-logind
+root       811  0.0  0.1 304596  7040 ?        Ssl  08:09   0:00 /usr/libexec/accounts-daemon
+root       832  0.0  0.6 356192 35212 ?        Ssl  08:09   0:07 /usr/libexec/platform-python -s /usr/sbin/firewalld --nofork --nopid
+root       854  0.0  0.2 1025824 17084 ?       Ssl  08:09   0:03 /usr/sbin/NetworkManager --no-daemon
+root       872  0.0  0.1 133364  9168 ?        Ss   08:09   0:00 /usr/sbin/cupsd -l
+root       876  0.0  0.1  92248  5908 ?        Ss   08:09   0:00 /usr/sbin/sshd -D -oCiphers=aes256-gcm@openssh.com,chacha20-poly1305@openssh.com,aes256-ctr,aes256-cbc,aes128-gcm@openssh.com,aes128-ctr,aes128-cbc -oMACs=hmac-sha2-256-etm@openssh.com,hmac-sha1-etm@openssh.com,umac-128-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-sha2-256,hmac-sha1,umac-128@openssh.com,hmac-sha2-512 -oGSSAPIKexAlgorithms=gss-gex-sha1-,gss-group14-sha1- -oKexAlgorithms=curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1 -oHostKeyAlgorithms=rsa-sha2-256,ecdsa-sha2-nistp256,ecdsa-sha2-nistp256-cert-v01@openssh.com,ecdsa-sha2-nistp384,ecdsa-sha2-nistp384-cert-v01@openssh.com,rsa-sha2-512,ecdsa-sha2-nistp521,ecdsa-sha2-nistp521-cert-v01@openssh.com,ssh-ed25519,ssh-ed25519-cert-v01@openssh.com,ssh-rsa,ssh-rsa-cert-v01@openssh.com -oPubkeyAcceptedKeyTypes=rsa-sha2-256,ecdsa-sha2-nistp256,ecdsa-sha2-nistp256-cert-v01@openssh.com,ecdsa-sha2-nistp384,ecdsa-sha2-nistp384-cert-v01@openssh.com,rsa-sha2-512,ecdsa-sha2-nistp521,ecdsa-sha2-nistp521-cert-v01@openssh.com,ssh-ed25519,ssh-ed25519-cert-v01@openssh.com,ssh-rsa,ssh-rsa-cert-v01@openssh.com
+root       877  0.0  0.4 402280 25764 ?        Ssl  08:09   0:02 /usr/libexec/platform-python -Es /usr/sbin/tuned -l -P
+root       889  0.0  0.0  36092  3516 ?        Ss   08:09   0:00 /usr/sbin/crond -n
+root       891  0.0  0.0  42624  2084 ?        Ss   08:09   0:00 /usr/sbin/atd -f
+root       892  0.0  0.1 317140  7632 ?        Ssl  08:09   0:00 /usr/sbin/gdm
+root       928  0.0  0.1 304112  9740 ?        Sl   08:09   0:00 gdm-session-worker [pam/gdm-launch-environment]
+gdm        948  0.0  0.1  93116  8200 ?        Ss   08:09   0:00 /usr/lib/systemd/systemd --user
+gdm        955  0.0  0.0 169940  5112 ?        S    08:09   0:00 (sd-pam)
+root       960  0.0  0.1  60252  7152 ?        Ss   08:09   0:00 /usr/sbin/wpa_supplicant -c /etc/wpa_supplicant/wpa_supplicant.conf -u -s
+gdm        963  0.0  0.1 1401804 9740 ?        Ssl  08:09   0:00 /usr/bin/pulseaudio --daemonize=no
+gdm        964  0.0  0.2 317124 12312 tty1     Ssl+ 08:09   0:00 /usr/libexec/gdm-wayland-session gnome-session --autostart /usr/share/gdm/greeter/autostart
+gdm       1337  0.0  0.0 147408  5172 ?        Ssl  08:09   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root      1397  0.0  0.5 248944 29208 ?        Ssl  08:09   0:03 /usr/sbin/rsyslogd -n
+gdm       1476  0.0  0.2 561268 13432 tty1     Sl+  08:09   0:00 /usr/libexec/gnome-session-binary --autostart /usr/share/gdm/greeter/autostart
+thoriq    1630  0.0  0.0  24408  5292 pts/2    Ss+  11:41   0:00 bash
+gdm       2330  0.1  2.4 3348180 143212 tty1   Sl+  08:09   0:40 /usr/bin/gnome-shell
+dnsmasq   2547  0.0  0.0  71228  2196 ?        S    08:09   0:00 /usr/sbin/dnsmasq --conf-file=/var/lib/libvirt/dnsmasq/default.conf --leasefile-ro --dhcp-script=/usr/libexec/libvirt_leaseshelper
+root      2548  0.0  0.0  71200   408 ?        S    08:09   0:00 /usr/sbin/dnsmasq --conf-file=/var/lib/libvirt/dnsmasq/default.conf --leasefile-ro --dhcp-script=/usr/libexec/libvirt_leaseshelper
+thoriq    2748  0.0  0.0  24412  5408 pts/3    Ss   11:59   0:00 bash
+thoriq    2923  0.7  2.9 800144 169984 tty2    Sl+  12:03   1:14 /opt/google/chrome/chrome --type=renderer --field-trial-handle=12652690888442918012,15556181515055111063,131072 --lang=en-US --enable-crash-reporter=bc369edd-62c2-42df-bd04-e9bb437d816e, --disable-client-side-phishing-detection --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=16001484701173345644 --renderer-client-id=395 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+root      3058  0.0  0.1 320420  9024 ?        Ssl  08:09   0:00 /usr/libexec/upowerd
+gdm       3515  0.0  0.3 612528 21960 tty1     Sl+  08:09   0:00 /usr/bin/Xwayland :1024 -rootless -terminate -accessx -core -listen 4 -listen 5 -displayfd 6
+gdm       4275  0.0  0.1 349672  6364 ?        Ssl  08:09   0:00 /usr/libexec/at-spi-bus-launcher
+gdm       4295  0.0  0.0 128608  4644 ?        Sl   08:09   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+gdm       4302  0.0  0.1 225576  6232 ?        Sl   08:09   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+thoriq    4468  3.0  4.9 987608 282732 tty2    Sl+  12:44   4:05 /opt/google/chrome/chrome --type=renderer --field-trial-handle=12652690888442918012,15556181515055111063,131072 --lang=en-US --enable-crash-reporter=bc369edd-62c2-42df-bd04-e9bb437d816e, --disable-client-side-phishing-detection --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=7055526198946386881 --renderer-client-id=417 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+gdm       4801  0.0  0.1 364908  6992 tty1     Sl   08:09   0:00 ibus-daemon --xim --panel disable
+gdm       4857  0.0  0.0 280408  5520 tty1     Sl   08:09   0:00 /usr/libexec/ibus-dconf
+gdm       4896  0.0  0.4 489900 26400 tty1     Sl   08:09   0:00 /usr/libexec/ibus-x11 --kill-daemon
+gdm       4967  0.0  0.1 280256  5844 ?        Sl   08:09   0:00 /usr/libexec/ibus-portal
+gdm       5609  0.0  0.0 269044  4656 ?        Ssl  08:09   0:00 /usr/libexec/xdg-permission-store
+root      5933  0.0  0.1 300528  6752 ?        Ssl  08:09   0:00 /usr/libexec/boltd
+gdm       5958  0.0  0.4 639680 27736 tty1     Sl+  08:09   0:00 /usr/libexec/gsd-xsettings
+gdm       5966  0.0  0.1 279228  6012 tty1     Sl+  08:09   0:00 /usr/libexec/gsd-a11y-settings
+gdm       5973  0.0  0.4 489460 25896 tty1     Sl+  08:09   0:00 /usr/libexec/gsd-clipboard
+gdm       5976  0.0  0.4 811956 27748 tty1     Sl+  08:09   0:01 /usr/libexec/gsd-color
+gdm       5977  0.0  0.2 360728 12828 tty1     Sl+  08:09   0:00 /usr/libexec/gsd-datetime
+gdm       5981  0.0  0.0 283396  5148 tty1     Sl+  08:09   0:00 /usr/libexec/gsd-housekeeping
+gdm       5993  0.0  0.4 639196 25968 tty1     Sl+  08:09   0:00 /usr/libexec/gsd-keyboard
+gdm       5997  0.0  0.5 1223324 30316 tty1    Sl+  08:09   0:00 /usr/libexec/gsd-media-keys
+gdm       5999  0.0  0.0 203088  4304 tty1     Sl+  08:09   0:00 /usr/libexec/gsd-mouse
+gdm       6004  0.0  0.5 939928 28852 tty1     Sl+  08:09   0:00 /usr/libexec/gsd-power
+gdm       6008  0.0  0.1 276616 10192 tty1     Sl+  08:09   0:00 /usr/libexec/gsd-print-notifications
+gdm       6009  0.0  0.0 203108  4380 tty1     Sl+  08:09   0:00 /usr/libexec/gsd-rfkill
+gdm       6015  0.0  0.0 276820  4724 tty1     Sl+  08:09   0:00 /usr/libexec/gsd-screensaver-proxy
+gdm       6019  0.0  0.1 306800  9764 tty1     Sl+  08:09   0:00 /usr/libexec/gsd-sharing
+gdm       6028  0.0  0.1 457056  9784 tty1     Sl+  08:09   0:02 /usr/libexec/gsd-smartcard
+gdm       6038  0.0  0.1 344088  8340 tty1     Sl+  08:09   0:00 /usr/libexec/gsd-sound
+gdm       6041  0.0  0.4 574640 27072 tty1     Sl+  08:09   0:00 /usr/libexec/gsd-wacom
+gdm       6149  0.0  0.1 206588  7560 tty1     Sl   08:09   0:00 /usr/libexec/ibus-engine-simple
+colord    6326  0.0  0.1 323956  9936 ?        Ssl  08:09   0:00 /usr/libexec/colord
+root      6484  0.0  0.1 483060 11480 ?        Sl   08:09   0:00 gdm-session-worker [pam/gdm-password]
+thoriq    6736  0.0  0.1  93228  8336 ?        Ss   08:09   0:00 /usr/lib/systemd/systemd --user
+thoriq    6742  0.0  0.0 317404  5160 ?        S    08:09   0:00 (sd-pam)
+thoriq    6750  0.1  0.2 2297844 15608 ?       S<sl 08:09   0:27 /usr/bin/pulseaudio --daemonize=no
+thoriq    6755  0.0  0.1 435640  6464 ?        Sl   08:09   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+thoriq    6761  0.0  0.1 317124 10268 tty2     Ssl+ 08:09   0:00 /usr/libexec/gdm-wayland-session gnome-session
+thoriq    6764  0.0  0.1 148132  6248 ?        Ssl  08:09   0:03 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+thoriq    6767  0.0  0.2 645700 13888 tty2     Sl+  08:09   0:00 /usr/libexec/gnome-session-binary
+thoriq    6873  4.0  4.0 3894528 235556 tty2   Sl+  08:09  16:44 /usr/bin/gnome-shell
+thoriq    6897  0.0  0.1 367592  6844 ?        Ssl  08:09   0:00 /usr/libexec/gvfsd
+thoriq    6913  0.0  0.0 422816  5108 ?        Sl   08:09   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+thoriq    6982  0.9  0.7 636928 41020 tty2     Sl+  08:09   3:52 /usr/bin/Xwayland :0 -rootless -terminate -accessx -core -listen 4 -listen 5 -displayfd 6
+thoriq    6998  0.0  0.1 349672  6136 ?        Ssl  08:09   0:00 /usr/libexec/at-spi-bus-launcher
+thoriq    7003  0.0  0.0 147112  4624 ?        Sl   08:09   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+thoriq    7006  0.0  0.1 225576  6124 ?        Sl   08:09   0:04 /usr/libexec/at-spi2-registryd --use-gnome-session
+thoriq    7019  0.1  0.1 365168  7324 tty2     Sl   08:09   0:29 ibus-daemon --xim --panel disable
+thoriq    7023  0.0  0.1 280400  6324 tty2     Sl   08:09   0:00 /usr/libexec/ibus-dconf
+thoriq    7024  0.0  0.4 413700 25812 tty2     Sl   08:09   0:05 /usr/libexec/ibus-extension-gtk3
+thoriq    7028  0.0  0.4 489916 26512 tty2     Sl   08:09   0:00 /usr/libexec/ibus-x11 --kill-daemon
+thoriq    7029  0.0  0.0 269044  4652 ?        Ssl  08:09   0:00 /usr/libexec/xdg-permission-store
+thoriq    7035  0.0  0.1 280256  7732 ?        Sl   08:09   0:00 /usr/libexec/ibus-portal
+thoriq    7044  0.0  0.3 681740 19104 ?        Sl   08:09   0:00 /usr/libexec/gnome-shell-calendar-server
+thoriq    7061  0.0  0.5 1320468 32560 ?       Ssl  08:09   0:00 /usr/libexec/evolution-source-registry
+thoriq    7064  0.0  0.1 331400  7880 ?        Ssl  08:09   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+thoriq    7071  0.0  0.1 277844  5844 ?        Ssl  08:09   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+thoriq    7075  0.0  0.1 290536  8324 ?        Ssl  08:09   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+thoriq    7078  0.0  1.0 1089876 62508 ?       SLl  08:09   0:01 /usr/libexec/goa-daemon
+thoriq    7082  0.0  0.1 381140  7552 ?        Ssl  08:09   0:00 /usr/libexec/gvfs-afc-volume-monitor
+thoriq    7087  0.0  0.1 278316  6376 ?        Ssl  08:09   0:00 /usr/libexec/gvfs-goa-volume-monitor
+thoriq    7091  0.0  0.0 192612  5308 ?        Sl   08:09   0:00 /usr/libexec/dconf-service
+thoriq    7094  0.0  0.1 204256  6012 ?        Ssl  08:09   0:00 /usr/libexec/gvfsd-metadata
+thoriq    7106  0.0  0.2 422568 11548 ?        Sl   08:09   0:02 /usr/libexec/goa-identity-service
+thoriq    7119  0.0  0.5 939860 32012 tty2     Sl+  08:09   0:00 /usr/libexec/gsd-power
+thoriq    7121  0.0  0.1 360772 11452 tty2     Sl+  08:09   0:00 /usr/libexec/gsd-print-notifications
+thoriq    7122  0.0  0.1 424436  5824 tty2     Sl+  08:09   0:00 /usr/libexec/gsd-rfkill
+thoriq    7124  0.0  0.1 276820  7716 tty2     Sl+  08:09   0:00 /usr/libexec/gsd-screensaver-proxy
+thoriq    7129  0.0  0.1 454792  9832 tty2     Sl+  08:09   0:02 /usr/libexec/gsd-sharing
+thoriq    7130  0.0  0.1 457056  9620 tty2     Sl+  08:09   0:02 /usr/libexec/gsd-smartcard
+thoriq    7134  0.0  0.1 344088 10208 tty2     Sl+  08:09   0:00 /usr/libexec/gsd-sound
+thoriq    7135  0.0  0.4 639700 27516 tty2     Sl+  08:09   0:00 /usr/libexec/gsd-xsettings
+thoriq    7137  0.0  0.4 574644 26976 tty2     Sl+  08:09   0:00 /usr/libexec/gsd-wacom
+thoriq    7150  0.0  0.4 489452 25812 tty2     Sl+  08:09   0:00 /usr/libexec/gsd-clipboard
+thoriq    7151  0.0  0.1 279228  8028 tty2     Sl+  08:09   0:00 /usr/libexec/gsd-a11y-settings
+thoriq    7152  0.0  0.2 436888 13364 tty2     Sl+  08:09   0:00 /usr/libexec/gsd-datetime
+thoriq    7153  0.0  0.1 366180  7036 tty2     Sl+  08:09   0:01 /usr/libexec/gsd-housekeeping
+thoriq    7156  0.0  0.4 812012 27620 tty2     Sl+  08:09   0:02 /usr/libexec/gsd-color
+thoriq    7162  0.0  0.5 1757940 29792 tty2    Sl+  08:09   0:01 /usr/libexec/gsd-media-keys
+thoriq    7165  0.0  0.1 279236  6016 tty2     Sl+  08:09   0:00 /usr/libexec/gsd-mouse
+thoriq    7168  0.0  0.4 639140 26288 tty2     Sl+  08:09   0:00 /usr/libexec/gsd-keyboard
+thoriq    7176  0.0  0.3 834172 21884 ?        Ssl  08:09   0:00 /usr/libexec/evolution-calendar-factory
+thoriq    7219  0.0  0.2 516732 14556 tty2     Sl+  08:09   0:00 /usr/libexec/gsd-printer
+thoriq    7225  0.0  0.7 2048512 40392 ?       Sl   08:09   0:00 /usr/libexec/evolution-calendar-factory-subprocess --factory all --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx7176x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/7176/2
+thoriq    7233  0.0  0.1 206588  6204 tty2     Sl   08:09   0:08 /usr/libexec/ibus-engine-simple
+thoriq    7291  0.0  0.3 820832 21524 ?        Ssl  08:09   0:00 /usr/libexec/evolution-addressbook-factory
+root      7305  0.0  0.1 184740  8320 ?        Ss   08:46   0:00 /usr/sbin/sssd -i --logger=files
+thoriq    7306  0.0  0.4 695832 24144 tty2     SNl+ 08:09   0:00 /usr/libexec/tracker-miner-apps
+root      7309  0.0  0.1 191824  9572 ?        S    08:46   0:01 /usr/libexec/sssd/sssd_be --domain implicit_files --uid 0 --gid 0 --logger=files
+root      7310  0.0  0.2 202764 13548 ?        S    08:46   0:00 /usr/libexec/sssd/sssd_nss --uid 0 --gid 0 --logger=files
+thoriq    7341  0.0  0.6 925588 35692 tty2     SNl+ 08:09   0:01 /usr/libexec/tracker-miner-fs
+thoriq    7349  0.0  1.5 1350128 90600 tty2    Sl+  08:09   0:08 /usr/bin/gnome-software --gapplication-service
+thoriq    7350  0.0  0.6 3550364 36312 ?       Ssl  08:09   0:02 /usr/libexec/tracker-store
+thoriq    7371  0.0  0.4 1029552 25876 ?       Sl   08:09   0:00 /usr/libexec/evolution-addressbook-factory-subprocess --factory all --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.AddressBookx7291x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/AddressBook/7291/2
+thoriq    7372  0.0  0.1 278708  5928 tty2     Sl+  08:09   0:00 /usr/libexec/gsd-disk-utility-notify
+root      7464  0.0  0.2 534580 15080 ?        Ssl  08:10   0:00 /usr/libexec/fwupd/fwupd
+thoriq    7615  0.4  0.9 545128 54292 ?        Ssl  08:10   1:45 /usr/libexec/gnome-terminal-server
+thoriq    7633  0.0  0.1 386708  9208 ?        Sl   08:10   0:00 /usr/libexec/gvfsd-trash --spawner :1.16 /org/gtk/gvfs/exec_spaw/0
+thoriq    7686  0.5  1.3 1107700 77552 ?       Sl   13:29   0:31 /usr/bin/nautilus --gapplication-service
+thoriq    7859  0.0  0.0  83636  5576 ?        S    08:10   0:00 /usr/libexec/gconfd-2
+thoriq    8048  0.0  0.0  24528  4708 pts/1    Ss   08:11   0:00 bash
+thoriq    8503  0.0  0.9 767756 57436 tty2     Sl+  13:39   0:02 /opt/google/chrome/chrome --type=utility --field-trial-handle=12652690888442918012,15556181515055111063,131072 --lang=en-US --service-sandbox-type=audio --enable-crash-reporter=bc369edd-62c2-42df-bd04-e9bb437d816e, --service-request-channel-token=17402850174638735952 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+thoriq    9543  5.0  6.6 1195100 382532 tty2   Sl+  13:54   3:14 /opt/google/chrome/chrome --type=renderer --field-trial-handle=12652690888442918012,15556181515055111063,131072 --lang=en-US --enable-crash-reporter=bc369edd-62c2-42df-bd04-e9bb437d816e, --extension-process --disable-client-side-phishing-detection --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=8596787155368457433 --renderer-client-id=541 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+root     10260  0.0  0.0      0     0 ?        I    14:08   0:01 [kworker/u8:2-phy0]
+root     10871  0.0  0.0      0     0 ?        I    14:22   0:00 [kworker/u8:0-i915]
+root     10899  0.0  0.0      0     0 ?        I    14:23   0:00 [kworker/2:0-events_power_efficient]
+thoriq   11109  0.0  1.7 703904 99408 tty2     Sl+  14:26   0:01 /opt/google/chrome/chrome --type=renderer --field-trial-handle=12652690888442918012,15556181515055111063,131072 --lang=en-US --enable-crash-reporter=bc369edd-62c2-42df-bd04-e9bb437d816e, --extension-process --disable-client-side-phishing-detection --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=173902934944046652 --renderer-client-id=565 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+thoriq   11286  0.5  2.8 770612 161528 tty2    Sl+  14:33   0:08 /opt/google/chrome/chrome --type=renderer --field-trial-handle=12652690888442918012,15556181515055111063,131072 --lang=en-US --enable-crash-reporter=bc369edd-62c2-42df-bd04-e9bb437d816e, --disable-client-side-phishing-detection --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=15117590786828497062 --renderer-client-id=567 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+root     11457  0.0  0.0      0     0 ?        I    14:35   0:00 [kworker/0:2-events]
+root     11844  0.0  0.0 101704  2960 ?        Ssl  08:38   0:00 /usr/sbin/gssproxy -D
+root     12262  0.0  0.1 179532 10252 pts/1    S    14:44   0:00 sudo su
+root     12269  0.0  0.1 167548  8348 pts/1    S    14:44   0:00 su
+root     12271  0.0  0.0  26404  4984 pts/1    S+   14:44   0:00 bash
+thoriq   12492  0.8  2.8 769424 161468 tty2    Sl+  14:48   0:04 /opt/google/chrome/chrome --type=renderer --field-trial-handle=12652690888442918012,15556181515055111063,131072 --lang=en-US --enable-crash-reporter=bc369edd-62c2-42df-bd04-e9bb437d816e, --disable-client-side-phishing-detection --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=7597146426355522367 --renderer-client-id=615 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+root     12509  0.0  0.0      0     0 ?        I    14:48   0:00 [kworker/1:1-cgroup_destroy]
+thoriq   12513  0.0  1.6 700052 95816 tty2     Sl+  14:48   0:00 /opt/google/chrome/chrome --type=renderer --field-trial-handle=12652690888442918012,15556181515055111063,131072 --lang=en-US --enable-crash-reporter=bc369edd-62c2-42df-bd04-e9bb437d816e, --disable-client-side-phishing-detection --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=10271456129593821507 --renderer-client-id=616 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+thoriq   12525  3.1  3.2 808500 184836 tty2    Sl+  14:49   0:17 /opt/google/chrome/chrome --type=renderer --field-trial-handle=12652690888442918012,15556181515055111063,131072 --lang=en-US --enable-crash-reporter=bc369edd-62c2-42df-bd04-e9bb437d816e, --disable-client-side-phishing-detection --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=295988317162858390 --renderer-client-id=617 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+root     12634  0.0  0.0      0     0 ?        I    14:49   0:00 [kworker/u8:1-phy0]
+root     12828  0.0  0.0      0     0 ?        I    14:49   0:00 [kworker/1:3-events]
+root     12830  0.0  0.0      0     0 ?        I    14:49   0:00 [kworker/0:3-xfs-eofblocks/sda6]
+root     13026  0.0  0.0      0     0 ?        I    14:49   0:00 [kworker/3:5-mm_percpu_wq]
+root     13027  0.0  0.0      0     0 ?        I    14:49   0:00 [kworker/3:6-events]
+root     13172  0.0  0.0      0     0 ?        I    14:51   0:00 [kworker/2:1-cgroup_pidlist_destroy]
+root     13309  0.2  0.6 597412 39192 ?        Ssl  14:53   0:00 /usr/libexec/packagekitd
+root     13379  0.0  0.0      0     0 ?        I    14:55   0:00 [kworker/1:0-cgroup_pidlist_destroy]
+root     13380  0.0  0.0      0     0 ?        I    14:55   0:00 [kworker/1:2-events]
+root     13381  0.0  0.0      0     0 ?        I    14:55   0:00 [kworker/0:0-events]
+root     13393  0.0  0.0      0     0 ?        I    14:55   0:00 [kworker/u8:3-events_unbound]
+root     13411  0.0  0.0      0     0 ?        I    14:55   0:00 [kworker/0:1-xfs-cil/sda6]
+thoriq   13415  0.0  0.9 667048 54792 tty2     Sl+  14:56   0:00 /opt/google/chrome/chrome --type=renderer --field-trial-handle=12652690888442918012,15556181515055111063,131072 --lang=en-US --enable-crash-reporter=bc369edd-62c2-42df-bd04-e9bb437d816e, --disable-client-side-phishing-detection --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=2499747111929768171 --renderer-client-id=668 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+root     13466  0.0  0.0      0     0 ?        I    14:57   0:00 [kworker/2:2-cgroup_destroy]
+root     13482  0.0  0.0   7284   720 ?        S    14:57   0:00 sleep 60
+root     13574  0.0  0.0      0     0 ?        I    14:58   0:00 [kworker/2:3-events_power_efficient]
+thoriq   13582  0.0  0.0  59564  3980 pts/3    R+   14:58   0:00 ps -aux
+thoriq   13585  0.0  0.3 1244304 22384 ?       RNsl 14:58   0:00 /usr/libexec/tracker-extract
+root     16033  0.1  0.4 177712 27464 ?        Ss   08:42   0:28 /usr/libexec/sssd/sssd_kcm --uid 0 --gid 0 --logger=files
+thoriq   23179  4.2  8.7 1508288 504868 tty2   SLl+ 09:03  14:57 /opt/google/chrome/chrome
+thoriq   23186  0.0  0.0   7424   832 tty2     S+   09:03   0:00 cat
+thoriq   23187  0.0  0.0   7424   716 tty2     S+   09:03   0:00 cat
+thoriq   23190  0.0  0.8 432276 50408 tty2     S+   09:03   0:00 /opt/google/chrome/chrome --type=zygote
+thoriq   23191  0.0  0.0  35244  4680 tty2     S+   09:03   0:00 /opt/google/chrome/nacl_helper
+thoriq   23194  0.0  0.2 432276 14324 tty2     S+   09:03   0:01 /opt/google/chrome/chrome --type=zygote
+thoriq   23216  3.3  5.2 823252 304792 tty2    Sl+  09:03  11:53 /opt/google/chrome/chrome --type=gpu-process --field-trial-handle=12652690888442918012,15556181515055111063,131072 --gpu-preferences=KAAAAAAAAAAgAAAgAAAAAAAAYAAAAAAAEAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA --service-request-channel-token=16492458110824072478
+thoriq   23218  0.7  2.4 620468 142948 tty2    SLl+ 09:03   2:43 /opt/google/chrome/chrome --type=utility --field-trial-handle=12652690888442918012,15556181515055111063,131072 --lang=en-US --service-sandbox-type=network --service-request-channel-token=11691506874836169458 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+root     23967  0.0  0.1 115208 11284 ?        Ss   08:43   0:00 /usr/lib/systemd/systemd-udevd
+thoriq   24179  0.0  1.8 720884 104844 tty2    Sl+  09:04   0:02 /opt/google/chrome/chrome --type=renderer --field-trial-handle=12652690888442918012,15556181515055111063,131072 --lang=en-US --enable-crash-reporter=bc369edd-62c2-42df-bd04-e9bb437d816e, --extension-process --disable-client-side-phishing-detection --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=10898851006345942374 --renderer-client-id=116 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+root     24193  0.0  0.0  25768  2680 ?        S    08:44   0:00 /bin/bash /usr/sbin/ksmtuned
+thoriq   24208  0.0  1.5 705456 89816 tty2     Sl+  09:04   0:01 /opt/google/chrome/chrome --type=renderer --field-trial-handle=12652690888442918012,15556181515055111063,131072 --lang=en-US --enable-crash-reporter=bc369edd-62c2-42df-bd04-e9bb437d816e, --extension-process --disable-client-side-phishing-detection --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=10623967116878696284 --renderer-client-id=121 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+root     24222  0.0  0.6 1822576 35112 ?       Ssl  08:44   0:00 /usr/sbin/libvirtd
+thoriq   25170  0.0  1.6 709548 94476 tty2     Sl+  09:05   0:02 /opt/google/chrome/chrome --type=renderer --field-trial-handle=12652690888442918012,15556181515055111063,131072 --lang=en-US --enable-crash-reporter=bc369edd-62c2-42df-bd04-e9bb437d816e, --extension-process --disable-client-side-phishing-detection --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=12922479372560270137 --renderer-client-id=161 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+thoriq   25243  0.0  1.3 684968 79956 tty2     Sl+  09:05   0:00 /opt/google/chrome/chrome --type=renderer --field-trial-handle=12652690888442918012,15556181515055111063,131072 --lang=en-US --enable-crash-reporter=bc369edd-62c2-42df-bd04-e9bb437d816e, --extension-process --disable-client-side-phishing-detection --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=2681573236857219611 --renderer-client-id=174 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+thoriq   25269  0.0  2.2 752556 130732 tty2    Sl+  09:05   0:04 /opt/google/chrome/chrome --type=renderer --field-trial-handle=12652690888442918012,15556181515055111063,131072 --lang=en-US --enable-crash-reporter=bc369edd-62c2-42df-bd04-e9bb437d816e, --extension-process --disable-client-side-phishing-detection --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=10373211643443216107 --renderer-client-id=179 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+thoriq   25345  0.0  1.8 714792 109184 tty2    Sl+  09:05   0:05 /opt/google/chrome/chrome --type=renderer --field-trial-handle=12652690888442918012,15556181515055111063,131072 --lang=en-US --enable-crash-reporter=bc369edd-62c2-42df-bd04-e9bb437d816e, --extension-process --disable-client-side-phishing-detection --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=8868145045714414112 --renderer-client-id=193 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+thoriq   25405  0.0  1.6 717240 97652 tty2     Sl+  09:05   0:01 /opt/google/chrome/chrome --type=renderer --field-trial-handle=12652690888442918012,15556181515055111063,131072 --lang=en-US --enable-crash-reporter=bc369edd-62c2-42df-bd04-e9bb437d816e, --extension-process --disable-client-side-phishing-detection --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=16859295185897190745 --renderer-client-id=206 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+thoriq   25493  0.1  2.6 786544 152668 tty2    Sl+  09:05   0:27 /opt/google/chrome/chrome --type=renderer --field-trial-handle=12652690888442918012,15556181515055111063,131072 --lang=en-US --enable-crash-reporter=bc369edd-62c2-42df-bd04-e9bb437d816e, --extension-process --disable-client-side-phishing-detection --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=9741673445373512933 --renderer-client-id=216 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+thoriq   25524  0.0  1.6 700084 94876 tty2     Sl+  09:05   0:00 /opt/google/chrome/chrome --type=renderer --field-trial-handle=12652690888442918012,15556181515055111063,131072 --lang=en-US --enable-crash-reporter=bc369edd-62c2-42df-bd04-e9bb437d816e, --extension-process --disable-client-side-phishing-detection --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=3376521207884567583 --renderer-client-id=222 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+thoriq   25553  0.1  3.2 811900 184580 tty2    Sl+  09:06   0:36 /opt/google/chrome/chrome --type=renderer --field-trial-handle=12652690888442918012,15556181515055111063,131072 --lang=en-US --enable-crash-reporter=bc369edd-62c2-42df-bd04-e9bb437d816e, --disable-client-side-phishing-detection --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=14139058664646294158 --renderer-client-id=227 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+thoriq   26806  1.4  5.0 966252 291344 tty2    Sl+  09:22   4:53 /opt/google/chrome/chrome --type=renderer --field-trial-handle=12652690888442918012,15556181515055111063,131072 --lang=en-US --enable-crash-reporter=bc369edd-62c2-42df-bd04-e9bb437d816e, --disable-client-side-phishing-detection --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=6060723414561364153 --renderer-client-id=238 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+thoriq   26838  0.7  3.3 815944 193384 tty2    Sl+  09:22   2:39 /opt/google/chrome/chrome --type=renderer --field-trial-handle=12652690888442918012,15556181515055111063,131072 --lang=en-US --enable-crash-reporter=bc369edd-62c2-42df-bd04-e9bb437d816e, --disable-client-side-phishing-detection --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=7343186240553593856 --renderer-client-id=242 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+thoriq   26860  0.6  2.1 766128 124104 tty2    Sl+  09:22   2:16 /opt/google/chrome/chrome --type=renderer --field-trial-handle=12652690888442918012,15556181515055111063,131072 --lang=en-US --enable-crash-reporter=bc369edd-62c2-42df-bd04-e9bb437d816e, --disable-client-side-phishing-detection --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=15635861574366395448 --renderer-client-id=244 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+thoriq   26994  0.0  0.1 372160  7472 ?        Sl   09:24   0:00 /usr/libexec/gvfsd-network --spawner :1.16 /org/gtk/gvfs/exec_spaw/1
+thoriq   27025  0.0  0.1 385292  7660 ?        Sl   09:24   0:00 /usr/libexec/gvfsd-dnssd --spawner :1.16 /org/gtk/gvfs/exec_spaw/5
+thoriq   29253  0.7  3.3 827656 192004 tty2    Sl+  09:52   2:14 /opt/google/chrome/chrome --type=renderer --field-trial-handle=12652690888442918012,15556181515055111063,131072 --lang=en-US --enable-crash-reporter=bc369edd-62c2-42df-bd04-e9bb437d816e, --disable-client-side-phishing-detection --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=6431416548125818263 --renderer-client-id=305 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+thoriq   29279  0.2  2.3 771896 133104 tty2    Sl+  09:52   0:47 /opt/google/chrome/chrome --type=renderer --field-trial-handle=12652690888442918012,15556181515055111063,131072 --lang=en-US --enable-crash-reporter=bc369edd-62c2-42df-bd04-e9bb437d816e, --disable-client-side-phishing-detection --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=4691572360605349485 --renderer-client-id=306 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+thoriq   29294  0.3  2.2 786420 126736 tty2    Sl+  09:52   1:10 /opt/google/chrome/chrome --type=renderer --field-trial-handle=12652690888442918012,15556181515055111063,131072 --lang=en-US --enable-crash-reporter=bc369edd-62c2-42df-bd04-e9bb437d816e, --disable-client-side-phishing-detection --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=4724539131640783185 --renderer-client-id=307 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+thoriq   29313  0.0  2.0 733968 118504 tty2    Sl+  09:52   0:05 /opt/google/chrome/chrome --type=renderer --field-trial-handle=12652690888442918012,15556181515055111063,131072 --lang=en-US --enable-crash-reporter=bc369edd-62c2-42df-bd04-e9bb437d816e, --disable-client-side-phishing-detection --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=15585970586139740845 --renderer-client-id=308 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+thoriq   29324  0.1  2.0 756352 119768 tty2    Sl+  09:52   0:33 /opt/google/chrome/chrome --type=renderer --field-trial-handle=12652690888442918012,15556181515055111063,131072 --lang=en-US --enable-crash-reporter=bc369edd-62c2-42df-bd04-e9bb437d816e, --disable-client-side-phishing-detection --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=2303202727620390707 --renderer-client-id=309 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+thoriq   29339  0.1  2.4 755444 142824 tty2    Sl+  09:53   0:29 /opt/google/chrome/chrome --type=renderer --field-trial-handle=12652690888442918012,15556181515055111063,131072 --lang=en-US --enable-crash-reporter=bc369edd-62c2-42df-bd04-e9bb437d816e, --disable-client-side-phishing-detection --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=579010714545313227 --renderer-client-id=310 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+thoriq   29353  0.0  1.6 696200 95184 tty2     Sl+  09:53   0:00 /opt/google/chrome/chrome --type=renderer --field-trial-handle=12652690888442918012,15556181515055111063,131072 --lang=en-US --enable-crash-reporter=bc369edd-62c2-42df-bd04-e9bb437d816e, --disable-client-side-phishing-detection --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=17424391304134739035 --renderer-client-id=311 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+thoriq   29372  0.0  1.6 696452 96600 tty2     Sl+  09:53   0:00 /opt/google/chrome/chrome --type=renderer --field-trial-handle=12652690888442918012,15556181515055111063,131072 --lang=en-US --enable-crash-reporter=bc369edd-62c2-42df-bd04-e9bb437d816e, --disable-client-side-phishing-detection --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=11686196051596067200 --renderer-client-id=312 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+thoriq   32526  0.0  0.0  12700  2980 tty2     S+   11:14   0:00 /bin/bash /opt/xdman/xdman
+thoriq   32528  0.1  2.1 4592004 124240 tty2   Sl+  11:14   0:26 /opt/xdman/jre/bin/java -Dsun.java2d.xrender=false -Xmx1024m -jar /opt/xdman/xdman.jar
+thoriq   32717  0.5  1.8 732044 108040 tty2    Sl+  11:14   1:09 /opt/google/chrome/chrome --type=renderer --field-trial-handle=12652690888442918012,15556181515055111063,131072 --lang=en-US --enable-crash-reporter=bc369edd-62c2-42df-bd04-e9bb437d816e, --extension-process --disable-client-side-phishing-detection --enable-auto-reload --num-raster-threads=2 --enable-main-frame-before-activation --service-request-channel-token=12068085651169938569 --renderer-client-id=368 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100,v8_natives_data:101

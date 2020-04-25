@@ -1,0 +1,33 @@
+#!/bin/bash
+#simpleIO
+
+clear
+echo "Aplikasi Menghitung Luas Bangun Datar";
+echo -e "Pilih Bangun Datar\n1.Segitiga\n2.Persegi\n3.Lingkaran";
+read -p "Pilihanmu (1-3): " opsi;
+if [ $opsi -eq 1 ];
+then
+echo "Penghitungan Segitiga";
+echo -n "Masukkan Besar Alas Segitiga:"
+read alas
+echo -n "Masukkan Tinggi Segitiga:"
+read tinggi
+let luasSegi3=(alas*tinggi)/2;
+printf "Luas Segitiga Adalah: $luasSegi3\n"
+elif [ $opsi -eq 2 ];
+then
+echo "Penghitungan Persegi"
+echo -n "Masukkan Besar Sisi Persegi:"
+read sisi
+let luasPersegi=sisi*sisi;
+printf "Luas Persegi adalah: $luasPersegi\n"
+elif [ $opsi -eq 3 ];
+then
+echo "Penghitungan Lingkaran"
+echo -n "Masukkan Besaran Jari2 Lingkaran:"
+read jari2
+let luasLingk=3,14*jari2^2;
+printf "Luas lingkaran adalah: $luasLingk\n"
+else
+echo "Gak ada pilihannya dong!!!!"
+fi

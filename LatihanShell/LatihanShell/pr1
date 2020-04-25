@@ -1,0 +1,8 @@
+#!/bin/bash
+#pr1
+
+url="thariqnugroho.epizy.com"
+angka=69
+
+printf "Hi, pake printf ala C\n\t\adi bash\n";
+printf "My URL $url\n"

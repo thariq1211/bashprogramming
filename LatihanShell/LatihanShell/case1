@@ -1,0 +1,13 @@
+#!/bin/bash
+
+
+read -p "Masukkan nama hewan: " hewan;
+
+case $hewan in
+	ayam | burung | bebek ) printf "$hewan berkaki dua\n"
+	break;;
+	sapi | kuda | jaran ) printf "$hewan berkaki empat\n"
+	break;;
+	*) printf "Segawon!!!!\n"
+	break;;
+esac
